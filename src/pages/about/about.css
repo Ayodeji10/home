@@ -33,7 +33,7 @@ ul li {
     border-bottom: solid 3px white;
 }
 
-#about ul li .active {
+#about ul li a .active {
     border-bottom: solid 2px white;
 }
 
@@ -54,7 +54,9 @@ li a {
     border-radius: 50%;
     background-color: white;
     width: 43px;
-    padding: 0px !important
+    padding: 0px !important;
+    margin-left: 5px;
+    text-align: center;
 }
 
 .nav-avatar li a {
@@ -75,7 +77,7 @@ li a {
     border: 1px;
     background: white;
     border: solid 1px white;
-
+    outline: none
 }
 
 .navbar-toggler span + span {
@@ -192,7 +194,8 @@ li a {
     padding: 20px;
 }
 
-#about .voter, .values {
+/* voter  */
+#about .voter {
     padding: 70px 0px;
     text-align: center;
     background-color: #FBFBFB;
@@ -202,7 +205,7 @@ li a {
     padding-bottom: 20px;
 }
 
-#about .voter h3, .values h3, .start h3  {
+ #about .voter h3, .values h3, .start h3  {
     font-size: 16px;
     color: #008753
 }
@@ -269,7 +272,6 @@ li a {
 }
 
 .invite-input {
-    background-color: #58B801;
     padding: 50px 40px
 }
 
@@ -288,12 +290,11 @@ li a {
 }
 
 .invite-input button{
-    color: white;
-    background-color: #58B801;
-    opacity: 100%;
+    color: #008753;
     border: 0px;
     outline: none;
-    padding-bottom: 10px;
+    padding-top: 10px;
+    background-color: white;
 }
 
 .invite-input i {
@@ -330,6 +331,10 @@ li a {
 }
 
 @media (min-width:768px) and (max-width:991px){
+    .navbar .collapse {
+        background-color: #008753;
+    }
+    
     #about .banner {
         margin-top: 120px;
     }
@@ -363,6 +368,9 @@ li a {
 }
 
 @media (min-width:576px) and (max-width:767px){
+    .navbar .collapse {
+        background-color: #008753;
+    }
     #about .banner {
         margin-top: 120px;
     }
@@ -404,6 +412,10 @@ li a {
 }
 
 @media (min-width:386px) and (max-width:575px) {
+    .navbar .collapse {
+        background-color: #008753;
+    }
+    
     #about .banner {
         margin-top: 120px;
     }
@@ -461,6 +473,10 @@ li a {
 }
 
 @media (max-width: 385px) {
+    .navbar .collapse {
+        background-color: #008753;
+    }
+
     #about .banner {
         margin-top: 120px;
     }

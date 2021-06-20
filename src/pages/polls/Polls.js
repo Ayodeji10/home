@@ -1,6 +1,7 @@
 import React from 'react';
 import './polls.css'
 import { Link } from 'react-router-dom';
+import Footer from '../../components/Footer'
 
 const Polls = () => {
     return (
@@ -83,7 +84,7 @@ const Polls = () => {
                         <div className="candidate">
                             <div className="row">
                                 <div className="col-lg-4 col-sm-4 col-4">
-                                    <img src="../img/IFEANYI-UBAH.png" alt />
+                                    <img src={require("../../img/IFEANYI-UBAH.png").default} />
                                 </div>
                                 <div className="col-lg-8 col-sm-8 col-8">
                                     <h3>Ifeanyi Ubah</h3>
@@ -97,7 +98,7 @@ const Polls = () => {
                         <div className="candidate">
                             <div className="row">
                                 <div className="col-lg-4 col-sm-4 col-4">
-                                    <img src="../img/IFEANYI-UBAH.png" alt />
+                                    <img src={require("../../img/IFEANYI-UBAH.png").default} />
                                 </div>
                                 <div className="col-lg-8 col-sm-8 col-8">
                                     <h3>Ifeanyi Ubah</h3>
@@ -111,7 +112,7 @@ const Polls = () => {
                         <div className="candidate">
                             <div className="row">
                                 <div className="col-lg-4 col-sm-4 col-4">
-                                    <img src="../img/IFEANYI-UBAH.png" alt />
+                                    <img src={require("../../img/IFEANYI-UBAH.png").default} />
                                 </div>
                                 <div className="col-lg-8 col-sm-8 col-8">
                                     <h3>Ifeanyi Ubah</h3>
@@ -125,7 +126,7 @@ const Polls = () => {
                         <div className="candidate">
                             <div className="row">
                                 <div className="col-lg-4 col-sm-4 col-4">
-                                    <img src="../img/IFEANYI-UBAH.png" alt />
+                                    <img src={require("../../img/IFEANYI-UBAH.png").default} />
                                 </div>
                                 <div className="col-lg-8 col-sm-8 col-8">
                                     <h3>Ifeanyi Ubah</h3>
@@ -139,7 +140,7 @@ const Polls = () => {
                         <div className="candidate">
                             <div className="row">
                                 <div className="col-lg-4 col-sm-4 col-4">
-                                    <img src="../img/IFEANYI-UBAH.png" alt />
+                                    <img src={require("../../img/IFEANYI-UBAH.png").default} />
                                 </div>
                                 <div className="col-lg-8 col-sm-8 col-8">
                                     <h3>Ifeanyi Ubah</h3>
@@ -153,7 +154,7 @@ const Polls = () => {
                         <div className="candidate">
                             <div className="row">
                                 <div className="col-lg-4 col-sm-4 col-4">
-                                    <img src="../img/IFEANYI-UBAH.png" alt />
+                                    <img src={require("../../img/IFEANYI-UBAH.png").default} />
                                 </div>
                                 <div className="col-lg-8 col-sm-8 col-8">
                                     <h3>Ifeanyi Ubah</h3>
@@ -167,7 +168,7 @@ const Polls = () => {
                         <div className="candidate">
                             <div className="row">
                                 <div className="col-lg-4 col-sm-4 col-4">
-                                    <img src="../img/IFEANYI-UBAH.png" alt />
+                                    <img src={require("../../img/IFEANYI-UBAH.png").default} />
                                 </div>
                                 <div className="col-lg-8 col-sm-8 col-8">
                                     <h3>Ifeanyi Ubah</h3>
@@ -181,7 +182,7 @@ const Polls = () => {
                         <div className="candidate">
                             <div className="row">
                                 <div className="col-lg-4 col-sm-4 col-4">
-                                    <img src="../img/IFEANYI-UBAH.png" alt />
+                                    <img src={require("../../img/IFEANYI-UBAH.png").default} />
                                 </div>
                                 <div className="col-lg-8 col-sm-8 col-8">
                                     <h3>Ifeanyi Ubah</h3>
@@ -195,7 +196,7 @@ const Polls = () => {
                         <div className="candidate">
                             <div className="row">
                                 <div className="col-lg-4 col-sm-4 col-4">
-                                    <img src="../img/IFEANYI-UBAH.png" alt />
+                                    <img src={require("../../img/IFEANYI-UBAH.png").default} />
                                 </div>
                                 <div className="col-lg-8 col-sm-8 col-8">
                                     <h3>Ifeanyi Ubah</h3>
@@ -209,7 +210,7 @@ const Polls = () => {
                         <div className="candidate">
                             <div className="row">
                                 <div className="col-lg-4 col-sm-4 col-4">
-                                    <img src="../img/IFEANYI-UBAH.png" alt />
+                                    <img src={require("../../img/IFEANYI-UBAH.png").default} />
                                 </div>
                                 <div className="col-lg-8 col-sm-8 col-8">
                                     <h3>Ifeanyi Ubah</h3>
@@ -223,7 +224,7 @@ const Polls = () => {
                         <div className="candidate">
                             <div className="row">
                                 <div className="col-lg-4 col-sm-4 col-4">
-                                    <img src="../img/IFEANYI-UBAH.png" alt />
+                                    <img src={require("../../img/IFEANYI-UBAH.png").default} />
                                 </div>
                                 <div className="col-lg-8 col-sm-8 col-8">
                                     <h3>Ifeanyi Ubah</h3>
@@ -237,7 +238,7 @@ const Polls = () => {
                         <div className="candidate">
                             <div className="row">
                                 <div className="col-lg-4 col-sm-4 col-4">
-                                    <img src="../img/IFEANYI-UBAH.png" alt />
+                                    <img src={require("../../img/IFEANYI-UBAH.png").default} />
                                 </div>
                                 <div className="col-lg-8 col-sm-8 col-8">
                                     <h3>Ifeanyi Ubah</h3>
@@ -251,7 +252,7 @@ const Polls = () => {
                         <div className="candidate">
                             <div className="row">
                                 <div className="col-lg-4 col-sm-4 col-4">
-                                    <img src="../img/IFEANYI-UBAH.png" alt />
+                                    <img src={require("../../img/IFEANYI-UBAH.png").default} />
                                 </div>
                                 <div className="col-lg-8 col-sm-8 col-8">
                                     <h3>Ifeanyi Ubah</h3>
@@ -265,7 +266,7 @@ const Polls = () => {
                         <div className="candidate">
                             <div className="row">
                                 <div className="col-lg-4 col-sm-4 col-4">
-                                    <img src="../img/IFEANYI-UBAH.png" alt />
+                                    <img src={require("../../img/IFEANYI-UBAH.png").default} />
                                 </div>
                                 <div className="col-lg-8 col-sm-8 col-8">
                                     <h3>Ifeanyi Ubah</h3>
@@ -279,7 +280,7 @@ const Polls = () => {
                         <div className="candidate">
                             <div className="row">
                                 <div className="col-lg-4 col-sm-4 col-4">
-                                    <img src="../img/IFEANYI-UBAH.png" alt />
+                                    <img src={require("../../img/IFEANYI-UBAH.png").default} />
                                 </div>
                                 <div className="col-lg-8 col-sm-8 col-8">
                                     <h3>Ifeanyi Ubah</h3>
@@ -293,7 +294,7 @@ const Polls = () => {
                         <div className="candidate">
                             <div className="row">
                                 <div className="col-lg-4 col-sm-4 col-4">
-                                    <img src="../img/IFEANYI-UBAH.png" alt />
+                                    <img src={require("../../img/IFEANYI-UBAH.png").default} />
                                 </div>
                                 <div className="col-lg-8 col-sm-8 col-8">
                                     <h3>Ifeanyi Ubah</h3>
@@ -307,7 +308,7 @@ const Polls = () => {
                         <div className="candidate">
                             <div className="row">
                                 <div className="col-lg-4 col-sm-4 col-4">
-                                    <img src="../img/IFEANYI-UBAH.png" alt />
+                                    <img src={require("../../img/IFEANYI-UBAH.png").default} />
                                 </div>
                                 <div className="col-lg-8 col-sm-8 col-8">
                                     <h3>Ifeanyi Ubah</h3>
@@ -321,7 +322,7 @@ const Polls = () => {
                         <div className="candidate">
                             <div className="row">
                                 <div className="col-lg-4 col-sm-4 col-4">
-                                    <img src="../img/IFEANYI-UBAH.png" alt />
+                                    <img src={require("../../img/IFEANYI-UBAH.png").default} />
                                 </div>
                                 <div className="col-lg-8 col-sm-8 col-8">
                                     <h3>Ifeanyi Ubah</h3>
@@ -338,7 +339,7 @@ const Polls = () => {
                         <div className="top">
                             <div className="row">
                                 <div className="col-lg-5 col-5">
-                                    <img src="../img/IFEANYI-UBAH.png" alt />
+                                    <img src={require("../../img/IFEANYI-UBAH.png").default} alt />
                                 </div>
                                 <div className="col-lg-7 col-7">
                                     <h2>Ifeanyi Ubah</h2>
@@ -400,43 +401,45 @@ const Polls = () => {
                             <th>Percentage</th>
                         </tr>
                             <tr>
-                                <td><img src="../img/IFEANYI-UBAH.png" alt /></td>
+                                <td><img src={require("../../img/IFEANYI-UBAH.png").default} alt /></td>
                                 <td>Professor Yemi Osinbajo</td>
                                 <td>APC</td>
                                 <td>1934578</td>
                                 <td>42%</td>
                             </tr>
                             <tr>
-                                <td><img src="../img/buhari.svg" alt /></td>
+                                <td><img src={require("../../img/buhari.svg").default} alt="" /></td>
                                 <td>General Mohammed Buhari</td>
                                 <td>APC</td>
                                 <td>345675</td>
                                 <td>20%</td>
                             </tr>
                             <tr>
-                                <td><img src="../img/IFEANYI-UBAH.png" alt /></td>
+                                <td><img src={require("../../img/buhari.svg").default} alt="" /></td>
                                 <td>Professor Yemi Osinbajo</td>
                                 <td>APC</td>
                                 <td>1934578</td>
                                 <td>42%</td>
                             </tr>
                             <tr>
-                                <td><img src="../img/buhari.svg" alt /></td>
+                                <td><img src={require("../../img/buhari.svg").default} alt="" /></td>
                                 <td>General Mohammed Buhari</td>
                                 <td>APC</td>
                                 <td>345675</td>
                                 <td>20%</td>
                             </tr>
                             <tr>
-                                <td><img src="../img/IFEANYI-UBAH.png" alt /></td>
+                                <td><img src={require("../../img/buhari.svg").default} alt="" /></td>
                                 <td>Professor Yemi Osinbajo</td>
                                 <td>APC</td>
                                 <td>1934578</td>
                                 <td>42%</td>
                             </tr>
-                        </tbody></table>
+                        </tbody>
+                    </table>
                 </div>
             </div>
+            <Footer />
         </div>
     )
 }

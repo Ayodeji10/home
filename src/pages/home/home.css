@@ -167,11 +167,6 @@ h3 i {
     color: #008753
 }
 
-.pop-up i {
-    float: right;
-    color: #008753
-}
-
 .pop-up .button button, .form button {
     margin: 0px;
     padding: 0px;
@@ -255,7 +250,7 @@ h3 i {
 
 /* invite  */
 .invite {
-    padding: 0px 20px 45px 20px
+    padding: 0px 20px 0px 20px
 }
 
 .invite input, .form input {
@@ -273,7 +268,6 @@ h3 i {
 }
 
 .invite button {
-    float: right;
     background-color: transparent;
     border: 0px;
     outline: none

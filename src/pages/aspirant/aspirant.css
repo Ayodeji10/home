@@ -229,60 +229,40 @@ li a {
     padding: 0px 10px
 }
 
-/* invite  */
-#aspirant .invite {
-    border: solid 1px #CFCFCF;
+/* footer  */
+footer {
+    padding: 40px 0px;
+    /* text-align: center; */
 }
-
-.invite-text {
-    text-align: right;
-    padding: 128px 40px
-}
-
-.invite-text h1 {
-    font-size: 60px;
+footer h1 {
+    font-size: 16px;
     color: #008753
 }
 
-.invite-text p {
+footer h3 {
+    font-size: 13px;
+    color: #008753
+}
+
+footer h4 {
+    font-size: 13px;
     color: #008753;
-    font-size: 18px;
+    margin-top: 40px;
+    text-align: center;
 }
 
-.invite-input {
-    background-color: #58B801;
-    padding: 50px 40px
+footer .menu {
+    max-width: 560px;
+    display: flex;
+    justify-content: center;
+    margin: 0px auto
 }
 
-.invite-input p {
-    margin-bottom: 5px !important;
+footer i {
     font-size: 20px;
-    color: #008753;
+    text-align: center;
+    color: #008753
 }
-
-.invite-input input {
-    width: 300px;
-    margin-bottom: 20px;
-    border: solid 1px #CFCFCF;
-    outline: none;
-    padding: 9px 15px;
-}
-
-.invite-input button{
-    color: white;
-    background-color: #58B801;
-    opacity: 100%;
-    border: 0px;
-    outline: none;
-    padding-bottom: 10px;
-}
-
-.invite-input i {
-    padding-left: 10px;
-    font-size: 15px;
-}
-
-
 
 
 /* media queries */
@@ -322,6 +302,14 @@ li a {
     #aspirant .invite-text {
         text-align: center;
     }
+
+    footer {
+        text-align: center;
+    }
+
+    footer i {
+        font-size: 20px;
+    }
 }
 
 @media (min-width:576px) and (max-width:767px){
@@ -358,6 +346,14 @@ li a {
 
     .invite-text {
         text-align: center;
+    }
+
+    footer {
+        text-align: center;
+    }
+
+    footer i {
+        font-size: 20px;
     }
 }
 
@@ -412,6 +408,18 @@ li a {
     .invite-text {
         text-align: center;
         padding: 20px 40px;
+    }
+
+    footer {
+        text-align: center;
+    }
+
+    footer i {
+        font-size: 20px;
+    }
+
+    footer .container .row > div {
+        padding-bottom: 15px;
     }
 }
 
@@ -470,5 +478,17 @@ li a {
     .invite-text {
         text-align: center;
         padding: 20px 40px;
+    }
+
+    footer {
+        text-align: center;
+    }
+
+    footer i {
+        font-size: 20px;
+    }
+
+    footer .container .row > div {
+        padding-bottom: 15px;
     }
 }

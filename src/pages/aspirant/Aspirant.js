@@ -1,6 +1,7 @@
 import React from 'react';
 import './aspirant.css'
 import { Link } from 'react-router-dom';
+import Footer from '../../components/Footer'
 
 const Aspirant = () => {
     return (
@@ -105,7 +106,7 @@ const Aspirant = () => {
                         <div className="aspirantt">
                             <div className="row">
                                 <div className="col-lg-4 col-sm-4 col-4">
-                                    <img src="../img/buhari.svg" alt />
+                                    <img src={require("../../img/buhari.svg").default} alt="" />
                                 </div>
                                 <div className="col-lg-8 col-sm-8 col-8">
                                     <h3>President Mohammed Buhari</h3>
@@ -119,7 +120,7 @@ const Aspirant = () => {
                         <div className="aspirantt">
                             <div className="row">
                                 <div className="col-lg-4 col-sm-4 col-4">
-                                    <img src="../img/buhari.svg" alt />
+                                    <img src={require("../../img/buhari.svg").default} alt="" />
                                 </div>
                                 <div className="col-lg-8 col-sm-8 col-8">
                                     <h3>President Mohammed Buhari</h3>
@@ -133,7 +134,7 @@ const Aspirant = () => {
                         <div className="aspirantt">
                             <div className="row">
                                 <div className="col-lg-4 col-sm-4 col-4">
-                                    <img src="../img/buhari.svg" alt />
+                                    <img src={require("../../img/buhari.svg").default} alt="" />
                                 </div>
                                 <div className="col-lg-8 col-sm-8 col-8">
                                     <h3>President Mohammed Buhari</h3>
@@ -147,7 +148,7 @@ const Aspirant = () => {
                         <div className="aspirantt">
                             <div className="row">
                                 <div className="col-lg-4 col-sm-4 col-4">
-                                    <img src="../img/buhari.svg" alt />
+                                    <img src={require("../../img/buhari.svg").default} alt="" />
                                 </div>
                                 <div className="col-lg-8 col-sm-8 col-8">
                                     <h3>President Mohammed Buhari</h3>
@@ -161,7 +162,7 @@ const Aspirant = () => {
                         <div className="aspirantt">
                             <div className="row">
                                 <div className="col-lg-4 col-sm-4 col-4">
-                                    <img src="../img/buhari.svg" alt />
+                                    <img src={require("../../img/buhari.svg").default} alt="" />
                                 </div>
                                 <div className="col-lg-8 col-sm-8 col-8">
                                     <h3>President Mohammed Buhari</h3>
@@ -175,7 +176,7 @@ const Aspirant = () => {
                         <div className="aspirantt">
                             <div className="row">
                                 <div className="col-lg-4 col-sm-4 col-4">
-                                    <img src="../img/buhari.svg" alt />
+                                    <img src={require("../../img/buhari.svg").default} alt="" />
                                 </div>
                                 <div className="col-lg-8 col-sm-8 col-8">
                                     <h3>President Mohammed Buhari</h3>
@@ -189,7 +190,7 @@ const Aspirant = () => {
                         <div className="aspirantt">
                             <div className="row">
                                 <div className="col-lg-4 col-sm-4 col-4">
-                                    <img src="../img/buhari.svg" alt />
+                                    <img src={require("../../img/buhari.svg").default} alt="" />
                                 </div>
                                 <div className="col-lg-8 col-sm-8 col-8">
                                     <h3>President Mohammed Buhari</h3>
@@ -203,7 +204,7 @@ const Aspirant = () => {
                         <div className="aspirantt">
                             <div className="row">
                                 <div className="col-lg-4 col-sm-4 col-4">
-                                    <img src="../img/buhari.svg" alt />
+                                    <img src={require("../../img/buhari.svg").default} alt="" />
                                 </div>
                                 <div className="col-lg-8 col-sm-8 col-8">
                                     <h3>President Mohammed Buhari</h3>
@@ -217,7 +218,7 @@ const Aspirant = () => {
                         <div className="aspirantt">
                             <div className="row">
                                 <div className="col-lg-4 col-sm-4 col-4">
-                                    <img src="../img/buhari.svg" alt />
+                                    <img src={require("../../img/buhari.svg").default} alt="" />
                                 </div>
                                 <div className="col-lg-8 col-sm-8 col-8">
                                     <h3>President Mohammed Buhari</h3>
@@ -231,7 +232,7 @@ const Aspirant = () => {
                         <div className="aspirantt">
                             <div className="row">
                                 <div className="col-lg-4 col-sm-4 col-4">
-                                    <img src="../img/buhari.svg" alt />
+                                    <img src={require("../../img/buhari.svg").default} alt="" />
                                 </div>
                                 <div className="col-lg-8 col-sm-8 col-8">
                                     <h3>President Mohammed Buhari</h3>
@@ -245,7 +246,7 @@ const Aspirant = () => {
                         <div className="aspirantt">
                             <div className="row">
                                 <div className="col-lg-4 col-sm-4 col-4">
-                                    <img src="../img/buhari.svg" alt />
+                                    <img src={require("../../img/buhari.svg").default} alt="" />
                                 </div>
                                 <div className="col-lg-8 col-sm-8 col-8">
                                     <h3>President Mohammed Buhari</h3>
@@ -259,7 +260,7 @@ const Aspirant = () => {
                         <div className="aspirantt">
                             <div className="row">
                                 <div className="col-lg-4 col-sm-4 col-4">
-                                    <img src="../img/buhari.svg" alt />
+                                    <img src={require("../../img/buhari.svg").default} alt="" />
                                 </div>
                                 <div className="col-lg-8 col-sm-8 col-8">
                                     <h3>President Mohammed Buhari</h3>
@@ -273,7 +274,7 @@ const Aspirant = () => {
                         <div className="aspirantt">
                             <div className="row">
                                 <div className="col-lg-4 col-sm-4 col-4">
-                                    <img src="../img/buhari.svg" alt />
+                                    <img src={require("../../img/buhari.svg").default} alt="" />
                                 </div>
                                 <div className="col-lg-8 col-sm-8 col-8">
                                     <h3>President Mohammed Buhari</h3>
@@ -287,7 +288,7 @@ const Aspirant = () => {
                         <div className="aspirantt">
                             <div className="row">
                                 <div className="col-lg-4 col-sm-4 col-4">
-                                    <img src="../img/buhari.svg" alt />
+                                    <img src={require("../../img/buhari.svg").default} alt="" />
                                 </div>
                                 <div className="col-lg-8 col-sm-8 col-8">
                                     <h3>President Mohammed Buhari</h3>
@@ -301,7 +302,7 @@ const Aspirant = () => {
                         <div className="aspirantt">
                             <div className="row">
                                 <div className="col-lg-4 col-sm-4 col-4">
-                                    <img src="../img/buhari.svg" alt />
+                                    <img src={require("../../img/buhari.svg").default} alt="" />
                                 </div>
                                 <div className="col-lg-8 col-sm-8 col-8">
                                     <h3>President Mohammed Buhari</h3>
@@ -322,7 +323,7 @@ const Aspirant = () => {
                                     <button>Vote</button>
                                 </div>
                                 <div className="col-lg-5 col-5">
-                                    <img src="../img/buhari.svg" alt />
+                                    <img src={require("../../img/buhari.svg").default} alt="" />
                                 </div>
                             </div>
                         </div>
@@ -380,6 +381,7 @@ const Aspirant = () => {
                     </div>
                 </div>
             </div>
+            <Footer />
         </div>
     )
 }

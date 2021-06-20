@@ -57,7 +57,7 @@ const Home = () => {
                             <button>Learn more</button>
                         </div>
                         <div className="col-lg-6 col-md-6 col-sm-6 ">
-                            <img src="/img/Image_enny.png" className="img-fluid d-none d-sm-block" alt />
+                            <img src={require("../../img/Image_enny.png").default} className="img-fluid d-none d-sm-block" alt="img" />
                         </div>
                     </div>
                 </div>

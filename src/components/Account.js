@@ -19,10 +19,10 @@ export default function Account() {
                     <button id="aspirant" style={{ color: "#008753", borderBottom: 'solid 5px #008753' }}>Aspirant</button>
                 </div>
                 <div className="options">
-                    <button> <img src="/img/alternate_email_black_24dp.svg" alt /> Sign up with Email</button>
-                    <button> <img src="../img/search.svg" alt /> Sign up with Google</button>
-                    <button> <img src="../img/facebook-app-symbol.svg" alt /> Sign up with Facebook</button>
-                    <button> <img src="../img/twitter.svg" alt /> Sign up with Twitter</button>
+                    <button><img src={require("../img/alternate_email_black_24dp.svg").default} alt="" />  Sign up with Email</button>
+                    <button><img src={require("../img/search.svg").default} alt="" /> Sign up with Google</button>
+                    <button><img src={require("../img/facebook-app-symbol.svg").default} alt="" /> Sign up with Facebook</button>
+                    <button><img src={require("../img/twitter.svg").default} alt="" /> Sign up with Twitter</button>
                 </div>
                 <div className="form">
                     <div className="row">
@@ -91,10 +91,10 @@ export default function Account() {
                 <button id="aspirant" onClick={() => setVoter(false)}>Aspirant</button>
             </div>
             <div className="options">
-                <button> <img src="../img/alternate_email_black_24dp.svg" alt /> Sign up with Email</button>
-                <button> <img src="../img/search.svg" alt /> Sign up with Google</button>
-                <button> <img src="../img/facebook-app-symbol.svg" alt /> Sign up with Facebook</button>
-                <button> <img src="../img/twitter.svg" alt /> Sign up with Twitter</button>
+                <button><img src={require("../img/alternate_email_black_24dp.svg").default} alt="" />  Sign up with Email</button>
+                <button><img src={require("../img/search.svg").default} alt="" /> Sign up with Google</button>
+                <button><img src={require("../img/facebook-app-symbol.svg").default} alt="" /> Sign up with Facebook</button>
+                <button><img src={require("../img/twitter.svg").default} alt="" /> Sign up with Twitter</button>
             </div>
             <div className="form">
                 <div className="row">
