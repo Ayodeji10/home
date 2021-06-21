@@ -11,11 +11,11 @@ a, h1, h2, h3, h4, h5, h6, p, a, button, span, td, tr{
 }
 
 ::-webkit-scrollbar {
-    width: 5px;
+    width: 7px;
 }
 
 ::-webkit-scrollbar-thumb {
-    background-color: grey;
+    background-color: #008753;
     border-radius: 5px;
 }
 
